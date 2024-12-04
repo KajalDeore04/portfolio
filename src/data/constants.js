@@ -8,9 +8,9 @@ export const Bio = {
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/Kajal-Deore",
+    github: "https://github.com/KajalDeore04",
     resume:
-      "https://drive.google.com/file/d/1TeRggJZxh3rlb2Q_qpDTHjVoAhGusoQm/view?usp=drive_link",
+      "https://drive.google.com/file/d/1y6YwqPx0HHgo-Bezrxw4uYrUW4zZhHM_/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/kajal-deore/",
   };
   
@@ -234,27 +234,27 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      school: "Galgotias University, Greater Noida",
+      school: "SSVPS's B. S. Deore College of Enginnering",
       date: "Oct 2022 - Sep 2026",
-      grade: "8.08 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Galgotias University, Greater Noida. I have completed my 1st Year and have currently CGPA of 8.08. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at GDSC, where I am learning and working on exciting projects with a team of talented developers.",
+      grade: "8.1 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering . I have completed my 2nd Year and have currently CGPA of 8.1. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a Lead of the Coding Club, where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
       id: 1,
-      school: "Kendriya Vidyalaya AMC School, Lucknow",
+      school: "Bapusaheb D.D. Vispute Higher and Secondary School, Dhule",
       date: "Apr 2015 - Apr 2022",
-      grade: "73%",
-      desc: "I completed my class 12 high school education at Kendriya Vidyalaya School, Lucknow, where I studied Science with Computer Science.",
-      degree: "CBSE(XII), Science with Computer",
+      grade: "86.33%",
+      desc: "I completed my class 12 high school education at Bapusaheb D.D. Vispute Higher and Secondary School, Dhule, where I studied Science.",
+      degree: "HSC(XII), Science",
     },
     {
       id: 2,
-      school: "Kendriya Vidyalaya AMC School, Lucknow",
-      date: "Apr 2015 - Apr 2020",
-      grade: "83.5%",
-      desc: "I completed my class 10 education at Kendriya Vidyalaya School, Lucknow, where I studied Science with Computer Application.",
-      degree: "CBSE(X), Science with Computer",
+      school: "Yashwant Vinayan Mandir, Dhule",
+      date: "Apr 2020",
+      grade: "94.40%",
+      desc: "I completed my class 10 education at Yashwant Vinayan Mandir, Dhule, where I studied Science with Computer Application.",
+      degree: "SSC(X)",
     },
   ];
   
