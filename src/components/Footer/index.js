@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+
+import GithubIcon from '@mui/icons-material/GitHub';
+import GmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -98,13 +98,12 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.email} target="display"><GmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; Made with ❤ by Roshni Kumari. All rights reserved.
+          &copy; Made with ❤ by Kajal Deore. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
