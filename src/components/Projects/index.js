@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects from different categories. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -22,21 +22,15 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-            :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
           }
           <Divider />
           {toggle === 'articles' ?
-            <ToggleButton active value="articles" onClick={() => setToggle('articles')}>ARTICLE'S</ToggleButton>
+            <ToggleButton active value="articles" onClick={() => setToggle('articles')}>ARTICLES</ToggleButton>
             :
-            <ToggleButton value="articles" onClick={() => setToggle('articles')}>ARTICLE'S</ToggleButton>
+            <ToggleButton value="articles" onClick={() => setToggle('articles')}>ARTICLES</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

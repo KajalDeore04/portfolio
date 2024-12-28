@@ -219,7 +219,7 @@ export const Bio = {
         "Leadership",
         "Networking",
       ],
-      doc: "https://www.linkedin.com/posts/brocode-coding-club-03480729a_technofest2024-decodehuntwinners-brocodecodingclub-activity-7167535303652577280-i1el?utm_source=share&utm_medium=member_desktop", 
+      doc: "", 
     },
     {
       id: 2,
@@ -228,7 +228,7 @@ export const Bio = {
       company: "GirlScript Summer of Code",
       date: "May 2023 - Present",
       desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "",
+      doc: "https://media.licdn.com/dms/image/v2/D4D2DAQHSFQgG3mwC3g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1727777399105?e=1735970400&v=beta&t=CId0nKf918jX1XCfUDSJUdxUASmgJ4PHSPyO7JGBW5I",
     },
   ];
   
@@ -244,7 +244,7 @@ export const Bio = {
     {
       id: 1,
       school: "Bapusaheb D.D. Vispute Higher and Secondary School, Dhule",
-      date: "Apr 2015 - Apr 2022",
+      date: "Apr 2020 - Apr 2022",
       grade: "86.33%",
       desc: "I completed my class 12 high school education at Bapusaheb D.D. Vispute Higher and Secondary School, Dhule, where I studied Science.",
       degree: "HSC(XII), Science",
@@ -254,7 +254,7 @@ export const Bio = {
       school: "Yashwant Vinayan Mandir, Dhule",
       date: "Apr 2020",
       grade: "94.40%",
-      desc: "I completed my class 10 education at Yashwant Vinayan Mandir, Dhule, where I studied Science with Computer Application.",
+      desc: "",
       degree: "SSC(X)",
     },
   ];

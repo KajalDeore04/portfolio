@@ -3,10 +3,11 @@ import styled from 'styled-components'
 
 const Document = styled.img`
     display: none;
-    height: 70px;
+    height: 270px;
     width: fit-content;
     background-color: #000;
     border-radius: 10px;
+    margin-left: 120px;
     &:hover{
         cursor: pointer;
         opacity: 0.8;
@@ -190,9 +191,9 @@ const ExperienceCard = ({ experience }) => {
                 }
             </Description>
             {experience.doc && (
-    <a href={experience.doc} target="new">
+    
         <Document src={experience.doc} alt="Document" />
-    </a>
+   
 )}
 
         </Card>
