@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import Achievements from "./components/Achievements";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -39,6 +40,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Achievements />
             <Certifications />
             <Experience />
           </Wrapper>

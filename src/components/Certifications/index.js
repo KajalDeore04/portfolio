@@ -252,6 +252,12 @@ const CertificationDate = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 80};
 `
+const CertificationDesc = styled.div`
+font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary + 80};
+    margin-bottom: 20px;
+`
 
 const Certification = () => {
     return (
@@ -274,6 +280,7 @@ const Certification = () => {
                             </CertificationImageWrapper>
                             <CertificationTitle>{certification.title}</CertificationTitle>
                             <CertificationIssuer>{certification.company}</CertificationIssuer>
+                            <CertificationDesc>{certification.desc}</CertificationDesc>
                             
                             <ViewDocumentButton href={certification.doc} target="_blank" rel="noopener noreferrer">
                                 View Document

@@ -151,53 +151,60 @@ export const Bio = {
   export const certifications = [
     {
       id: 0,
-      company: "Career Essentials in Generative AI by Microsoft and LinkedIn",
-      img: "https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png",
-     
-      doc: "https://www.linkedin.com/learning/certificates/7a31641bca886c0e6e2b253cf37e5259d277e8f551089030001f23450c4467a2?trk=share_certificate",
+      company: "Microsoft and LinkedIn",
+      img: "https://static.vecteezy.com/system/resources/previews/018/910/721/non_2x/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg",
+    desc: "This course covered all the applications of Generative AI in business",
+      doc: "https://drive.google.com/file/d/1SOdGbVu0l07OiKjAAE6hFF2LHEP65zr3/view?usp=sharing",
     },
     
     {
-      id: 0,
+      id: 1,
       company: "Microsoft",
-      img: "https://freepngimg.com/save/28350-microsoft-logo-photos/880x660",
-      
+      img: "https://i.pinimg.com/originals/b2/d9/06/b2d906c4b90768b63db1078cf365ca9f.jpg",
+      desc: "This course covered all the topics of cloud computing",
       doc: "https://learn.microsoft.com/en-us/users/kajaldeore-3397/achievements/print/98ydsfmu",
     },
     {
-      id: 0,
+      id: 2,
       company: "Google Cloud Platform (GCP)",
       img: "https://gwcteq.com/wp-content/uploads/2023/05/Emblem-Google-Cloud.jpg",
-      
-      doc: "https://www.cloudskillsboost.google/public_profiles/50991794-0e94-409f-b02f-a5fa89e2cd68",
+      desc: "This course was offered by GCP and GFG where I learned about the GCP and explored it through hands-on projects",
+      doc: "https://drive.google.com/file/d/1AKgLWoPlJ6hJKmqzw2_zUmgYJEUhaOhL/view?usp=sharing",
     },
     {
-      id: 0,
+      id: 3,
       company: "GUVI",
-      img: "https://www.guvi.in/blog/wp-content/uploads/2023/10/GUVI-logo-1-1200x675.webp",
-     
-      doc: "https://www.guvi.in/share-certificate/1QR81816y7k9h4806C",
+      img: "https://iimaventures.com/wp-content/uploads/2023/04/My-project-1-78-1.png",
+      desc: "This course covered all topics of python from basic to advanced",
+      doc: "https://drive.google.com/file/d/1jDCpzkEHBHJ4PvnSEV32WW0PylYXJjB2/view?usp=drive_link",
     },
     {
-      id: 0,
+      id: 4,
       company: "NxtWave",
       img: "https://media.licdn.com/dms/image/v2/C560BAQFzaJNs-JSe4w/company-logo_200_200/company-logo_200_200/0/1648218852378?e=1738195200&v=beta&t=WoKYatmJ7EwfZNVfkSNtMScyPKcSDNXn_I_O5pRetoA",
-      
+      desc: "During a workshop we worked on building a generative AI model using python.",
       doc: "https://drive.google.com/file/d/1MDCHB0VEFFS0R1AJsZ86qc5W0sDolXzK/view?usp=sharing",
     },
     {
-      id: 0,
+      id: 5,
       company: "Udacity",
-      img: "data:image/png;base64,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",
-      
+      img: "https://cdn.dribbble.com/users/414899/screenshots/6811959/udacity_branding.jpg",
+      desc: "Worked on a generative AI model with AWS.",
       doc: "https://drive.google.com/file/d/1MgZYilcQnpNt4z8KU2h_LNhPnwLY7zMa/view?usp=drive_link",
     },
     {
-      id: 0,
+      id: 6,
       company: "Infosys",
       img: "data:image/png;base64,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",
-      
+      desc: "This course covered all the topics of machine learning and artifical intelligence",
       doc: "https://drive.google.com/file/d/1UjhZjFNMhUwXI08ZGrbfJ73_qKGuld8K/view?usp=sharing",
+    },
+    {
+      id: 7,
+      company: "MongoDB",
+      img: "https://images.seeklogo.com/logo-png/47/1/mongodb-logo-png_seeklogo-477312.png?v=638686966340000000",
+      desc: "Through this course I learned about the MongoDB and its features",
+      doc: "https://drive.google.com/file/d/1JxKUQj9Bl1RdWf08SZljGhNw5AGC1pCE/view?usp=drive_link",
     },
     
   ]
@@ -210,11 +217,6 @@ export const Bio = {
       date: "Sept 2023",
       desc: "Working on the frontend of the web application using ReactJS, UX/UI, work on Api.",
       skills: [
-        "ReactJS",
-        "NodeJs",
-        "HTML",
-        "CSS",
-        "JavaScript",
         "Communication",
         "Leadership",
         "Networking",
@@ -226,9 +228,33 @@ export const Bio = {
       img: "https://miro.medium.com/v2/resize:fit:1100/1*7t8a9Z1eVYNwS1iaWaiN_Q.png",
       role: "Open Source Contributor ",
       company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
+      date: "Oct 2024 - Nov 2024",
       desc: "Contributing to different open-source projects and learn from industry experts",
+      skills: [
+        "ReactJS",
+        "NodeJs",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
       doc: "https://media.licdn.com/dms/image/v2/D4D2DAQHSFQgG3mwC3g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1727777399105?e=1735970400&v=beta&t=CId0nKf918jX1XCfUDSJUdxUASmgJ4PHSPyO7JGBW5I",
+    },
+    {
+      id: 3,
+      img: "https://socialwinterofcode.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F10e9c91c8b6e403ab676235d64c25af0%2Fassets%2Fcover%2F511.jpeg&w=1440&q=100",
+      role: "Open Source Contributor ",
+      company: "Social Winter of Code",
+      date: "Jan 2025 - Mar 2025",
+      desc: "Contributing for three months to different open-source projects having different technologies and learn from industry experts",
+      skills: [
+        "ReactJS",
+        "NodeJs",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "JavaScript",
+      ],
+      doc: "",
     },
   ];
   
