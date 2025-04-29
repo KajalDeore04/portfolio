@@ -12,7 +12,7 @@ import SharePost from "../../components/shared/SharePost";
 import FeaturedPosts from "../../components/pages/FeaturedPosts";
 import { Slide } from "../../animation/Slide";
 import { urlFor } from "@/lib/sanity.image";
-import Buymeacoffee from "@/app/components/shared/Buymeacoffee";
+// import Buymeacoffee from "@/app/components/shared/Buymeacoffee";
 import Comments from "@/app/components/shared/Comments";
 import { HiCalendar, HiChat } from "react-icons/hi";
 import { sanityFetch } from "@/lib/sanity.client";
@@ -228,12 +228,12 @@ export default async function Post({ params }: Props) {
         <Comments />
       </section>
 
-      <section className="max-w-3xl lg:py-10 pt-0">
+      {/* <section className="max-w-3xl lg:py-10 pt-0">
         <h3 className="lg:text-4xl text-3xl font-semibold tracking-tight mb-8">
           Support
         </h3>
         <Buymeacoffee />
-      </section>
+      </section> */}
     </main>
   );
 }
